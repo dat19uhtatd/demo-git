@@ -1,25 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="athor" constest="John Dean">
-<title>K.C.Weather</title>
-<style>
-    h1 {test-align : center;}
-    hr{width: 75%;}
-</style>
-<head>
-    
+  <meta charset="UTF-8">
+  <meta name="author" content="John Dean">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kansas City Weather</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      line-height: 1.6;
+    }
+
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+
+    hr {
+      width: 75%;
+      margin: 20px auto;
+      border: 1px solid #ccc;
+    }
+
+    .weather-info {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 10px;
+    }
+
+    .tomorrow {
+      margin-top: 15px;
+      font-weight: bold;
+    }
+  </style>
+</head>
 <body>
-    <h1>Kansas city weather</h1>
-<hr>
-<p>
-    it should be pleasant today with a high a 95 degree.<br>
-    With a humidity reading of 30%, it should feel like 102 degree.
-</p>
-<div>
-    Tomorrow temperatures :<br>
-    high 96, low 65
-</div>
-</body>   
+  <h1>Kansas City Weather</h1>
+  <hr>
+  <div class="weather-info">
+    <p>
+      It should be pleasant today with a high of <strong>95°F</strong>.<br>
+      With a humidity reading of <strong>30%</strong>, it may feel like <strong>102°F</strong>.
+    </p>
+    <div class="tomorrow">
+      Tomorrow’s temperatures:<br>
+      High: <strong>96°F</strong>, Low: <strong>65°F</strong>
+    </div>
+  </div>
+</body>
 </html>
